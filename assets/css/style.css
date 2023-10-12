@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #0f0f0f;
+  color: #131212;
   
 }
 
@@ -116,7 +116,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #050505;
+  background: #131212;
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -159,10 +159,12 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(10, 10, 10, 0.95);
+  background: rgba(3, 3, 3, 0.95);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
+  /* background: url("./wallpaper/449898.jpg"); */
+ 
 }
 
 #header.fixed-top {
@@ -199,6 +201,8 @@ h6 {
 */
 .navbar {
   padding: 0;
+  /* background: url("./wallpaper/449898.jpg");
+  */
 }
 
 .navbar ul {
@@ -224,7 +228,7 @@ h6 {
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
-  color: #f10909;
+  color: #f1efef;
   /* org color: white */
   white-space: nowrap;
   transition: 0.3s;
@@ -241,7 +245,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #111111;
+  background: #e40a0a;
 }
 
 .navbar .dropdown ul {
@@ -257,6 +261,8 @@ h6 {
   background: #1d1c1c;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  /* background: url("./wallpaper/449898.jpg"); */
+ 
 }
 
 .navbar .dropdown ul li {
@@ -265,7 +271,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: #ee0c0c;
+  color: #ee0707;
 }
 
 .navbar .dropdown ul a i {
@@ -275,7 +281,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: hsl(0, 88%, 47%);
+  color: hsl(0, 88%, 46%);
 }
 
 .navbar .dropdown:hover>ul {
@@ -311,7 +317,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ec0909;
+  color: #e70d0d;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -320,7 +326,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #cc1616;
+  color: #f10707;
 }
 
 @media (max-width: 991px) {
@@ -340,7 +346,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(19, 18, 18, 0.9);
+  background: rgba(17, 17, 17, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -359,7 +365,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #0e0e0e;
+  background-color: #0f0f0f;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -368,13 +374,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #191919;
+  color: #ee0a0a;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #e90c0c;
+  color: #ee0b0b;
   background: none;
 }
 
@@ -391,7 +397,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #eb0707;
+  background: #181717;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -425,8 +431,16 @@ h6 {
   height: calc(100vh - 110px);
   
   /* background: url("R\ \(1\).jpg") */
-  background: url("download\ \(32\).jpg")
+  /* background: url("download\ \(32\).jpg") */
   /* background: url("backgeound1.jpg") */
+  /* background: url("wallpapersden.com_call-of-duty-mobile-game_5120x2880.jpg") */
+  /* background: url("IMG_2357.JPG") */
+  /* background: url("misc-fbi-computer-hacker-wallpaper-9910681d914a8d4b36f768ffa0e176cd.JPG") */
+  /* background: url("IMG_2359.JPG") */
+  /* background: url("death-star.jpg") */
+  background: url("./wallpaper/japanese-temple-illustration-pu.jpg")
+  /* background:url("huj.jpg") */
+ 
    top center;
 
   background-size: cover;
@@ -449,11 +463,11 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #ec0c0c;
+  color: #f0ecec;
 }
 
 #hero h2 {
-  color: #e60b0b;
+  color: #f5f2f2;
   margin-bottom: 30px;
   font-size: 24px;
 }
@@ -468,7 +482,7 @@ h6 {
   padding: 10px 28px;
   transition: 0.5s;
   border: 2px solid #e70909;
-  color: #ee0b0b;
+  color: #fdfafa;
 }
 
 #hero .btn-get-started:hover {
@@ -531,7 +545,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #f7f5f5;
+  color: #f7f3f3;
   left: 0;
   right: 0;
   z-index: 1;
@@ -561,6 +575,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  /* background: url("redJap.jpg"); */
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -588,14 +607,27 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.JavaScript {
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
 .why-us {
   padding-top: 10px;
+  background-color: #0c0c0c;
 }
 
 .why-us .box {
-  padding: 50px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 25px;
+  box-shadow: 0px 2px 15px rgba(17, 17, 17, 0.1);
   transition: all ease-in-out 0.3s;
+
 }
 
 .why-us .box span {
@@ -610,11 +642,17 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #191919;
+  color: #f51111;
+}
+.call {
+  display:flex;
+  justify-content: center;
+
 }
 
+
 .why-us .box p {
-  color: #aaaaaa;
+  color: #eb0909;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -622,14 +660,14 @@ section {
 
 .why-us .box:hover {
   background: #cc1616;
-  padding: 30px 30px 70px 30px;
+  padding: 40px 30px 50px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
 .why-us .box:hover span,
 .why-us .box:hover h4,
 .why-us .box:hover p {
-  color: #fff;
+  color: #968686;
 }
 
 /*--------------------------------------------------------------
@@ -743,7 +781,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("IMG_2339.JPG") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+   /* url("./wallpaper/IMG_2192.JPG")  */
+   fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
